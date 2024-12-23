@@ -8,11 +8,16 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <style>
+      .custom-navbar {
+        background-color: #d15454ea;
+      }
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
       <div class="container-fluid">
         <!-- Logo -->
-        <a class="navbar-brand" href="index3fix.html">
-          <img src="logo_bus_ceria.png" alt="Logo" style="width: 50px; height: auto" />
+        <a class="navbar-brand" href="index.html">
+          <img src="ikonlogo.png" alt="Logo" style="width: 90px; height: auto" />
         </a>
         <!-- Toggler untuk layar kecil -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +27,7 @@
         <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="index3fix.html">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="orders.html">Orders</a>
@@ -61,5 +66,60 @@
         <button type="submit" class="btn btn-primary">Kirim Pesanan</button>
       </form>
     </div>
+    <!-- footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <footer class="container-fluid pt-5 pb-3" style="background-color: #d15454ea; color: #ffffff">
+      <div class="container">
+        <div class="row">
+          <!-- Alamat Perusahaan -->
+          <div class="col-md-4">
+            <h5 class="text-uppercase">Alamat</h5>
+            <p>
+              Booktory<br />
+              Jalan Gayatri 2 No.19<br />
+              Daerah Istimewa Yogyakarta, Indonesia
+            </p>
+          </div>
+
+          <!-- Kontak -->
+          <div class="col-md-4">
+            <h5 class="text-uppercase">Kontak</h5>
+            <p>
+              Telepon: +62 823 1617 189<br />
+              Email: <a href="mailto:booktory@gmail.com" class="text-light">booktory@gmail.com</a><br />
+              Jam Operasional: Senin - Jumat, 24 jam
+            </p>
+          </div>
+
+          <!-- Sosial Media -->
+          <div class="col-md-4">
+            <h5 class="text-uppercase">Ikuti Kami</h5>
+            <div class="d-flex flex-column align-items-start">
+              <div class="d-flex align-items-center mb-3">
+                <a href="https://facebook.com" class="text-light me-3">
+                  <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <span>@booktory189</span>
+              </div>
+              <div class="d-flex align-items-center mb-3">
+                <a href="https://twitter.com" class="text-light me-3">
+                  <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <span>@booktory_</span>
+              </div>
+              <div class="d-flex align-items-center">
+                <a href="https://instagram.com" class="text-light me-3">
+                  <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <span>@booktory.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <p>All Rights Reserved &copy; 2024 Booktory</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
